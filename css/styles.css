@@ -1,0 +1,159 @@
+#title{
+  background-color: #ff4c68;
+}
+.ml{
+  margin-left: auto;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 3rem;
+  color:white;
+  line-height: 1.5;
+}
+
+#features{
+  text-align: center;
+  padding:4rem 4rem;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+.h{
+  text-align: center;
+  color:#C84B31;
+}
+h3{
+  font-family: "montserrat-bold";
+  font-size: 1.5rem;
+  text-align: center;
+}
+.card{
+  text-align: center;
+}
+
+.col-lg-4{
+  padding: 4rem;
+}
+
+.position:hover{
+
+  color:#ff4c68;
+
+}
+.position{
+  color:#ef8172;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+.continer-fluid{
+  padding: 3% 15% 5%;
+}
+.iphone{
+  transform: rotate(25deg);
+  position:absolute;
+  right:30%;
+  width:20%;
+
+  /* padding-bottom: 2rem; */
+
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+}
+#pricing{
+  padding:100px;
+
+}
+.row{
+  color: #ef8172;
+}
+
+.f{
+  font-family: "montserrat Black";
+  font-size: 3.5rem;
+}
+
+
+.pricing-colum{
+  padding:3% 2%;
+}
+#footer{
+  text-align: center;
+  padding:7% 15%;
+}
+a{
+  font-family: "monstreet";
+  background-color: #fff;
+}
+.navbar-brand{
+ font-family: "montserrat Black";
+ background-color: #ff4c68;
+  font-size: 2rem;
+}
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+}
+.nav-items{
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 20px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "montserrat Black";
+  background-color: #ff4c68;
+}
+.downloadbutton{
+  margin: 5% 3% 5% 0%;
+}
+
+     /* testimonial */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding:7% 15%;
+}
+
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+.testimonials-image{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+@media(max-width:1028px){
+
+
+  #title{
+    text-align: center;
+  }
+
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
